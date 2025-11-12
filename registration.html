@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donation Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-wrapper">
+    <h4><b>*</b> - Denotes Required Information</h4>
+    <p><b>&gt; 1 Donation &nbsp;&nbsp;&gt; 2 Confirmation &nbsp;&nbsp;&gt; Thank You!</b></p>
+
+    <form class="donation-form">
+      <h2>Donor Information</h2>
+
+      <table>
+        <tr><td>First Name*</td><td><input type="text" name="fname"></td></tr>
+        <tr><td>Last Name*</td><td><input type="text" name="lname"></td></tr>
+        <tr><td>Company</td><td><input type="text" name="company"></td></tr>
+        <tr><td>Address 1*</td><td><input type="text" name="address1"></td></tr>
+        <tr><td>Address 2</td><td><input type="text" name="address2"></td></tr>
+        <tr><td>City*</td><td><input type="text" name="city"></td></tr>
+        <tr>
+          <td>State*</td>
+          <td><select><option>Select a State</option></select></td>
+        </tr>
+        <tr><td>Zip Code*</td><td><input type="text" name="zip"></td></tr>
+        <tr>
+          <td>Country*</td>
+          <td><select><option>Select a Country</option></select></td>
+        </tr>
+        <tr><td>Phone</td><td><input type="text" name="phone"></td></tr>
+        <tr><td>Fax</td><td><input type="text" name="fax"></td></tr>
+        <tr><td>Email*</td><td><input type="email" name="email"></td></tr>
+      </table>
+
+      <p><b>Donation Amount*</b><br>
+        (Check a button or type in your amount)<br>
+        <input type="radio" name="amount"> None
+        <input type="radio" name="amount"> $50
+        <input type="radio" name="amount"> $75
+        <input type="radio" name="amount"> $100
+        <input type="radio" name="amount"> $250
+        <input type="radio" name="amount"> Other Amount $
+        <input type="text" class="short">
+      </p>
+
+      <p><b>Recurring Donation</b><br>
+        (Check if yes)
+        <br><input type="checkbox"> I am interested in giving on a regular basis.<br>
+        Monthly Credit Card $
+        <input type="text" class="short"> For <input type="text" class="short"> Months
+      </p>
+
+      <h2>Honorarium and Memorial Donation Information</h2>
+      <p><b>I would like to make this donation</b><br>
+        <input type="radio" name="honor"> To Honor
+        <input type="radio" name="honor"> In Memory of
+      </p>
+
+      <table>
+        <tr><td>Name</td><td><input type="text" name="hname"></td></tr>
+        <tr><td>Address</td><td><input type="text" name="haddress"></td></tr>
+        <tr><td>City</td><td><input type="text" name="hcity"></td></tr>
+        <tr><td>State</td><td><select><option>Select a State</option></select></td></tr>
+        <tr><td>Zip</td><td><input type="text" name="hzip"></td></tr>
+      </table>
+
+      <h2>Additional Information</h2>
+      <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+      <p>Name <input type="text" name="pubname"></p>
+
+      <p>
+        <input type="checkbox"> I would like my gift to remain anonymous.<br>
+        <input type="checkbox"> My employer offers a matching gift program. I will mail the matching gift form.<br>
+        <input type="checkbox"> Please save the cost of acknowledging this gift by not mailing a thank you letter.
+      </p>
+
+      <p>Comments<br>
+        (Please type any questions or feedback here)<br>
+        <textarea rows="4" cols="50"></textarea>
+      </p>
+
+      <p><b>How may we contact you?</b><br>
+        <input type="checkbox"> E-mail<br>
+        <input type="checkbox"> Postal Mail<br>
+        <input type="checkbox"> Telephone<br>
+        <input type="checkbox"> Fax
+      </p>
+
+      <p>I would like to receive newsletters and information about special events by:<br>
+        <input type="checkbox"> E-mail<br>
+        <input type="checkbox"> Postal Mail
+      </p>
+
+      <p><input type="checkbox"> I would like information about volunteering.</p>
+
+      <div class="buttons">
+        <input type="reset" value="Reset">
+        <input type="submit" value="Continue">
+      </div>
+
+      <p class="secure"> Donate online with confidence. You are on a secure server.</p>
+    </form>
+  </div>
+</body>
+</html>

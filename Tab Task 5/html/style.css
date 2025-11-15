@@ -1,0 +1,49 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        form {
+            width: 60%;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+        }
